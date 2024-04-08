@@ -1,2 +1,5 @@
 # Ghidra temp files
 tmp*
+
+# Ghidra projects are always local and locked to their owner
+/ghidra/projects
