@@ -1,5 +1,6 @@
 # Ghidra temp files
 tmp*
+*.gdt.ulock
 
 # Ghidra projects are always local and locked to their owner
 /ghidra/projects/*
