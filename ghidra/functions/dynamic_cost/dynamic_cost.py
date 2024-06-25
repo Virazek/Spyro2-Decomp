@@ -5,7 +5,7 @@ def verify_unlock_cost(UNLOCK_ID: int) -> bool:
     # Values within parenthesis denote evaluating the value at that address
 
     # We first load the 'unlock state' table address for this specific unlock ID
-    UNLOCK_STATE_ADDR: int = UNLOCK_STATE_START + UNLOCK_ID * 0x04
+    UNLOCK_STATE_ADDR: int = UNLOCK_STATE_START + UNLOCK_ID << 2
     # Note that bitshifting left by 2 is the same as multiplying by 4
 
     # Next, we load the value to compare from the unlock type totals table
