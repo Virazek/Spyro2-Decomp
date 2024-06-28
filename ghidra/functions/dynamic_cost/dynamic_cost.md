@@ -80,3 +80,8 @@ IGNORE ALL THE FOLLOWING UNTIL I KNOW HOW TO IMPLEMENT THEM IN APWORLD, THE ROMH
 For simplicity, we also pre-calculate the different values that can be checked
 
 So, assume unlock type totals calculations start at 0x80065178, unlock states start at 0x80065184, and the verify unlock cost function starts at 0x800651E0
+
+
+
+
+We need some additional handling elsewhere to show the cost to the player when showing the text.
